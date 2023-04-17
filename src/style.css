@@ -23,9 +23,8 @@ body{
   row-gap: 1px;
 }
 
-button.transparent {
-  background-color: transparent;
-  border: none;
+button.transparent{
+  visibility: hidden;
 }
 
 .calculator-grid > button {
@@ -34,6 +33,8 @@ button.transparent {
     border-radius: 10px;
     border-color: #242424;
     font-weight: bold;
+    background-color: #303030;
+    color: white;
   }
 
 .calculator-grid > button:hover {
