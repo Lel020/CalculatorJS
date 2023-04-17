@@ -6,17 +6,19 @@
 
 body{
     background: linear-gradient(to right, #4568dc , #b06ab3);
+    overflow: hidden;
 }
 
 .calculator-grid {
   display: grid;
   justify-content: center;
   align-items: center;
-  padding-top: 15%;
+  padding-top: 12%;
   min-height: 100vh;
   grid-template-columns: repeat(4, 120px);
-  grid-template-rows:repeat(5, 100px);
-  gap: 10px;
+  grid-template-rows:repeat(5, 90px);
+  column-gap: 5px;
+  row-gap: 1px;
 }
 
 button.transparent {
@@ -28,6 +30,7 @@ button.transparent {
     cursor: pointer;
     font-size: 3.5rem;
     border-radius: 10px;
+    border-color: #242424;
   }
 
 .calculator-grid > button:hover {
@@ -39,10 +42,11 @@ button.transparent {
 }
 
 .output {
+  border-radius: 10px;
   background-color: #242424;
   color: #fff;
   font-size: 48px;
-  padding: 20px;
+  padding: 40px;
   text-align: right;
 }
 
