@@ -9,14 +9,19 @@ body{
 }
 
 .calculator-grid {
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    padding-top: 15%;
-    min-height: 100vh;
-    grid-template-columns: repeat(4, 120px);
-    grid-template-rows: repeat(6, 100px);
-    gap: 5px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15%;
+  min-height: 100vh;
+  grid-template-columns: repeat(4, 120px);
+  grid-template-rows: minmax(120px, auto) repeat(4, 100px);
+  gap: 5px;
+}
+
+button.transparent {
+  background-color: transparent;
+  border: none;
 }
 
 .calculator-grid > button {
