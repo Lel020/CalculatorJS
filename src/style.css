@@ -37,3 +37,20 @@ button.transparent {
 .calculator-grid > button:active {
     background-color: lightskyblue;
 }
+
+.output {
+  background-color: #242424;
+  color: #fff;
+  font-size: 48px;
+  padding: 20px;
+  text-align: right;
+}
+
+.previous-operand {
+  font-size: 24px;
+  opacity: 0.5;
+}
+
+.current-operand {
+  font-weight: bold;
+}
