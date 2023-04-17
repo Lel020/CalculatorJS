@@ -5,13 +5,14 @@
 }
 
 body{
-    background: linear-gradient(to right, #CBCE91FF, #EA738DFF);
+    background: linear-gradient(to right, #4568dc , #b06ab3);
 }
 
 .calculator-grid {
     display: grid;
     justify-content: center;
     align-items: center;
+    padding-top: 15%;
     min-height: 100vh;
     grid-template-columns: repeat(4, 120px);
     grid-template-rows: repeat(6, 100px);
@@ -20,12 +21,14 @@ body{
 
 .calculator-grid > button {
     cursor: pointer;
-    font-size: 3rem;
+    font-size: 3.5rem;
     border-radius: 10px;
-    outline: none;
-    background-color: rbga(255, 255, 255, 0.75);
   }
 
 .calculator-grid > button:hover {
-    background-color: gray
+    background-color: lightcyan;
+}
+
+.calculator-grid > button:active {
+    background-color: lightskyblue;
 }
