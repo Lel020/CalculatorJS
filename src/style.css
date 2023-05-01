@@ -8,14 +8,15 @@ body{
 }
 
 .container{
-    background-color: #152A5D;
+    background-color: rgba(21, 42, 93, 0.3);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 25vh auto 0;
+    margin: 22vh auto 0;
     padding: 5%;
-    width: 50%;
+    width: 25%;
+    height: 60vh;
 }
 
 .input input{
